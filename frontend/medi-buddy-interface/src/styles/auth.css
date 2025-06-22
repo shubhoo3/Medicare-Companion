@@ -1,0 +1,136 @@
+
+.auth-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.auth-content {
+  max-width: 450px;
+  width: 100%;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.back-button {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.logo-small {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.auth-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.role-indicator {
+  font-size: 16px;
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.auth-form-container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1e293b;
+}
+
+.auth-subtitle {
+  color: #64748b;
+  margin-bottom: 32px;
+  font-size: 16px;
+}
+
+.auth-form {
+  margin-bottom: 24px;
+}
+
+.auth-submit-button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  margin-top: 8px;
+}
+
+.auth-submit-button:hover {
+  background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+}
+
+.auth-switch {
+  text-align: center;
+  padding-top: 24px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.switch-button {
+  background: none;
+  color: #667eea;
+  font-weight: 600;
+  padding: 4px 8px;
+  margin-left: 8px;
+}
+
+.switch-button:hover {
+  color: #5a6fd8;
+  background: #f1f5f9;
+}
+
+@media (max-width: 480px) {
+  .auth-form-container {
+    padding: 30px 20px;
+  }
+  
+  .back-button {
+    top: 20px;
+    left: 20px;
+    padding: 10px 16px;
+  }
+}
