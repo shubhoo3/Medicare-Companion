@@ -2,9 +2,6 @@
 
 A full-stack role-based Medication Management System for patients and caretakers, built with **React**, **Node.js**, and **SQLite**.
 
-## 🌐 Live Demo
-
-> [Try the UI (Frontend Only)](https://your-live-demo-link.com)
 
 ## 📦 Repository Structure
 Medication-Management-System/
